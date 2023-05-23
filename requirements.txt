@@ -1,4 +1,8 @@
 Flask
-Torch
+torch
 Pytorch
 PIL
+pytorch_lightning
+random
+diffusers
+transformers
