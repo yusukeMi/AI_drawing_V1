@@ -1,7 +1,6 @@
 runtime: python37
 env: standard
 instance_class: F1
-service: truefly-demo
 entrypoint: gunicorn -b :$PORT application:app
 automatic_scaling:
   max_instances: 1
