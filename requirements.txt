@@ -2,3 +2,4 @@ flask
 torch
 pytorch_lightning
 transformers
+gunicorn
