@@ -2,5 +2,4 @@ flask
 torch
 Pytorch
 pytorch_lightning
-diffusers
 transformers
