@@ -1,5 +1,5 @@
 flask
 torch
-Pytorch
+pytorch
 pytorch_lightning
 transformers
