@@ -11,4 +11,4 @@ resources:
 readiness_check:
   app_start_timeout_sec: 1200
 manual_scaling:
-  instances: 5
+  instances: 1
