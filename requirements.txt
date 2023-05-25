@@ -5,4 +5,5 @@ transformers
 gunicorn
 pillow
 diffusers
+scipy
 urllib3==1.26.6
