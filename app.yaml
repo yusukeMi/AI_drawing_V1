@@ -1,6 +1,6 @@
 runtime: python
 env: standard
-instance_class: F4_HIGHMEM
+instance_class: F2
 entrypoint: gunicorn -b :$PORT application:app
 runtime_config:
   python_version: 3.7
