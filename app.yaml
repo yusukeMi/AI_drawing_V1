@@ -10,3 +10,5 @@ resources:
  disk_size_gb: 60
 readiness_check:
   app_start_timeout_sec: 1200
+manual_scaling:
+  instances: 1
