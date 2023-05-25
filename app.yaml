@@ -1,11 +1,5 @@
-runtime: python37
+runtime: python39
+instance_class: F2
 entrypoint: gunicorn -b :$PORT application:app
-automatic_scaling:
-  target_cpu_utilization: 0.6 # インスタンスを起動するためのCPU使用率のしきい値
-  min_instances: 2 # 最小インスタンス数
-  max_instances: 20 # 最大インスタンス数
-  min_idle_instances: 1 # アイドル状態インスタンスの最小数
-  max_idle_instances: 20 # アイドル状態のインスタンスの最大数
-  max_concurrent_requests: 80 # これ以上の同時リクエストで新しいインスタンスを立ち上げる（デフォルトは10）
 readiness_check:
   app_start_timeout_sec: 1200
