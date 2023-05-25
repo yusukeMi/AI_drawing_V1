@@ -28,6 +28,8 @@ dc.setModel(
     model_deta_sets[model]["revision"],
     )
 
+########### テスト #####################
+dc.text2img("path/to/model", 1,512, 512, 'dog')
 
 app = Flask(__name__)
 
