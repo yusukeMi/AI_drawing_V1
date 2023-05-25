@@ -6,7 +6,7 @@ runtime_config:
   python_version: 3.7
 resources:
  cpu: 4
- memory_gb: 12
+ memory_gb: 120
  disk_size_gb: 60
 readiness_check:
   app_start_timeout_sec: 1200
