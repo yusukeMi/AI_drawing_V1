@@ -53,4 +53,4 @@ def main_page():
 
 ## 実行
 if __name__ == "__main__":
-    app.run()
+    app.run(host="0.0.0.0")
