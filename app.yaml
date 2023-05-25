@@ -1,4 +1,4 @@
-runtime: python
+runtime: python37
 entrypoint: gunicorn -b :$PORT application:app
 automatic_scaling:
   target_cpu_utilization: 0.6 # インスタンスを起動するためのCPU使用率のしきい値
