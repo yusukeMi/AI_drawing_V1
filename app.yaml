@@ -1,5 +1,5 @@
 runtime: python
-env: flex
+env: standard
 instance_class: F4_HIGHMEM
 entrypoint: gunicorn -b :$PORT application:app
 runtime_config:
